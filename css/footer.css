@@ -1,0 +1,38 @@
+footer{
+    background: #101010;
+}
+
+footer h3 {
+    font-size: 16px;
+    color: #ec7532;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 3px 0;
+    transition: .5s;
+}
+
+footer a:hover {
+    color: #fbbd61;
+}
+
+.footer__copyright p{
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
