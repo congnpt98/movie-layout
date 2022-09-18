@@ -1,1 +1,55 @@
+@media screen and (max-width: 991.98px) {
+  header .navbar-brand {
+    max-width: 180px;
+  }
+
+  header .navbar-brand img {
+    max-width: 100%;
+  }
+
+  #movieNavbar .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 20px 14px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+    .line.active::after {
+        width: 0;
+    }
+
+  header .navbar-toggler {
+    outline: none;
+    border: none;
+    color: #fbbd61;
+  }
+
+  header .navbar-toggler:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  #movieNavbar .navbar-nav {
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+
+  #movieNavbar .navbar-nav .active .nav-link {
+    color: #ec7532;
+  }
+
+  #carouselMovies .carousel-item .carousel-caption h5 {
+    font-size: 2.5rem;
+  }
+
+.showTimes .nav-tabs .nav-link {
+    font-size: 16px;
+}
+.showTimes .nav-tabs .nav-link span {
+    padding: 10px 20px;
+    text-align: start;
+}
+}
 
